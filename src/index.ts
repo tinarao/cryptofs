@@ -1,7 +1,7 @@
 import app from './app';
 
 const main = () => {
-    const port = process.env.PORT || 3000;
+    const port = Bun.env.PORT || 3000;
 
     Bun.serve({
         port: port,
